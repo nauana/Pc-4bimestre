@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mostrar valores</title>
+	<meta charset="utf-8">
+	<script language="javascript">
+	var a, b, c, d; 
+	var  r, Ordem;
+
+	function resultado(){
+		a = document.formu.variA.value;
+		b = document.formu.variB.value;
+		c = document.formu.variC.value;
+		d = document.formu.variD.value;
+
+		if (parseInt (a) > parseInt (b) & parseInt (a) > parseInt (c) & parseInt (a) > (d) & parseInt(b) > parseInt(c) & parseInt(b) > parseInt(d) & parseInt(c) > parseInt(d)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+d+" "+c+" "+b+" "+a+" Decrescente "+a+" "+b+" "+c+" "+d+" "
+			document.formu.resul.value = r;
+		    }
+
+		else if (parseInt (a) > parseInt (b) & parseInt (a) > parseInt (c) & parseInt (a) > (d) & parseInt(c) > parseInt(b) & parseInt(c) > parseInt(d) & parseInt(b) > parseInt(d)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+d+" "+b+" "+c+" "+a+" Decrescente "+a+" "+c+" "+b+" "+d+" "
+			document.formu.resul.value = r;
+		    }
+
+		else if (parseInt (a) > parseInt (b) & parseInt (a) > parseInt (c) & parseInt (a) > (d) & parseInt(d) > parseInt(b) & parseInt(d) > parseInt(c) & parseInt(b) > parseInt(c)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+c+" "+b+" "+d+" "+a+" Decrescente "+a+" "+d+" "+b+" "+c+" "
+			document.formu.resul.value = r;
+		    }   
+
+		else if (parseInt (a) > parseInt (b) & parseInt (a) > parseInt (c) & parseInt (a) > (d) & parseInt(d) > parseInt(b) & parseInt(d) > parseInt(c) & parseInt(c) > parseInt(b)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+b+" "+c+" "+d+" "+a+" Decrescente "+a+" "+d+" "+c+" "+b+" "
+			document.formu.resul.value = r;
+		    }  
+
+		else if (parseInt (a) > parseInt (b) & parseInt (a) > parseInt (c) & parseInt (a) > (d) & parseInt(c) > parseInt(b) & parseInt(c) > parseInt(d) & parseInt(b) > parseInt(d)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+b+" "+d+" "+c+" "+a+" Decrescente "+a+" "+c+" "+d+" "+b+" "
+			document.formu.resul.value = r;
+		    }    
+
+
+		else if (parseInt (a) > parseInt (b) & parseInt (a) > parseInt (c) & parseInt (a) > (d) & parseInt(b) > parseInt(c) & parseInt(b) > parseInt(d) & parseInt(d) > parseInt(c)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+c+" "+d+" "+b+" "+a+" Decrescente "+a+" "+b+" "+d+" "+c+" "
+			document.formu.resul.value = r;
+		    }  
+
+
+		else if (parseInt (a) > parseInt (b) & parseInt (a) > parseInt (c) & parseInt (a) > (d) & parseInt(c) > parseInt(b) & parseInt(c) > parseInt(d) & parseInt(b) > parseInt(d)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+b+" "+d+" "+c+" "+a+" Decrescente "+a+" "+c+" "+d+" "+b+" "
+			document.formu.resul.value = r;
+		    } 
+
+		if (parseInt (b) > parseInt (a) & parseInt (b) > parseInt (c) & parseInt (b) > (d) & parseInt(a) > parseInt(c) & parseInt(a) > parseInt(d) & parseInt(c) > parseInt(d)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+d+" "+c+" "+a+" "+b+" Decrescente "+b+" "+a+" "+c+" "+d+" "
+			document.formu.resul.value = r;
+		    } 
+
+		else if (parseInt (b) > parseInt (a) & parseInt (b) > parseInt (c) & parseInt (b) > (d) & parseInt(a) > parseInt(c) & parseInt(a) > parseInt(d) & parseInt(d) > parseInt(c)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+c+" "+d+" "+a+" "+b+" Decrescente "+b+" "+a+" "+d+" "+c+" "
+			document.formu.resul.value = r;
+		    }   
+
+		else if (parseInt (b) > parseInt (a) & parseInt (b) > parseInt (c) & parseInt (b) > (d) & parseInt(c) > parseInt(a) & parseInt(c) > parseInt(d) & parseInt(a) > parseInt(d)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+d+" "+a+" "+c+" "+b+" Decrescente "+b+" "+c+" "+a+" "+d+" "
+			document.formu.resul.value = r;
+		    } 
+
+		else if (parseInt (b) > parseInt (a) & parseInt (b) > parseInt (c) & parseInt (b) > (d) & parseInt(c) > parseInt(a) & parseInt(c) > parseInt(d) & parseInt(d) > parseInt(a)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+a+" "+d+" "+c+" "+b+" Decrescente "+b+" "+c+" "+d+" "+a+" "
+			document.formu.resul.value = r;
+		    } 
+
+		else if (parseInt (b) > parseInt (a) & parseInt (b) > parseInt (c) & parseInt (b) > (d) & parseInt(d) > parseInt(a) & parseInt(d) > parseInt(c) & parseInt(a) > parseInt(c)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+c+" "+a+" "+d+" "+b+" Decrescente "+b+" "+d+" "+a+" "+c+" "
+			document.formu.resul.value = r;
+		    }    
+
+		else if (parseInt (b) > parseInt (a) & parseInt (b) > parseInt (c) & parseInt (b) > (d) & parseInt(d) > parseInt(a) & parseInt(d) > parseInt(c) & parseInt(c) > parseInt(a)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+c+" "+a+" "+d+" "+b+" Decrescente "+b+" "+d+" "+a+" "+c+" "
+			document.formu.resul.value = r;
+		    } 
+		    
+		if (parseInt (c) > parseInt (a) & parseInt (c) > parseInt (b) & parseInt (c) > (d) & parseInt(a) > parseInt(b) & parseInt(a) > parseInt(d) & parseInt(b) > parseInt(d)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+d+" "+b+" "+a+" "+c+" Decrescente "+c+" "+a+" "+b+" "+d+" "
+			document.formu.resul.value = r;
+		    } 
+
+		else if (parseInt (c) > parseInt (a) & parseInt (c) > parseInt (b) & parseInt (c) > (d) & parseInt(a) > parseInt(b) & parseInt(a) > parseInt(d) & parseInt(d) > parseInt(b)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+b+" "+d+" "+a+" "+c+" Decrescente "+c+" "+a+" "+d+" "+b+" "
+			document.formu.resul.value = r;
+		    }   
+
+		else if (parseInt (c) > parseInt (a) & parseInt (c) > parseInt (b) & parseInt (c) > (d) & parseInt(b) > parseInt(a) & parseInt(b) > parseInt(d) & parseInt(a) > parseInt(d)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+d+" "+a+" "+b+" "+c+" Decrescente "+c+" "+b+" "+a+" "+d+" "
+			document.formu.resul.value = r;
+		    } 
+
+		else if (parseInt (c) > parseInt (a) & parseInt (c) > parseInt (b) & parseInt (c) > (d) & parseInt(b) > parseInt(a) & parseInt(b) > parseInt(d) & parseInt(d) > parseInt(a)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+a+" "+d+" "+b+" "+c+" Decrescente "+c+" "+b+" "+d+" "+a+" "
+			document.formu.resul.value = r;
+		    }
+
+		else if (parseInt (c) > parseInt (a) & parseInt (c) > parseInt (b) & parseInt (c) > (d) & parseInt(d) > parseInt(a) & parseInt(d) > parseInt(b) & parseInt(a) > parseInt(b)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+b+" "+a+" "+d+" "+c+" Decrescente "+c+" "+d+" "+a+" "+b+" "
+			document.formu.resul.value = r;
+		    }  
+
+		else if (parseInt (c) > parseInt (a) & parseInt (c) > parseInt (b) & parseInt (c) > (d) & parseInt(d) > parseInt(a) & parseInt(d) > parseInt(b) & parseInt(b) > parseInt(a)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+a+" "+b+" "+d+" "+c+" Decrescente "+c+" "+d+" "+b+" "+a+" "
+			document.formu.resul.value = r;
+		    } 
+
+		if (parseInt (d) > parseInt (a) & parseInt (d) > parseInt (b) & parseInt (d) > (c) & parseInt(a) > parseInt(b) & parseInt(a) > parseInt(c) & parseInt(b) > parseInt(c)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+c+" "+b+" "+a+" "+d+" Decrescente "+d+" "+a+" "+b+" "+c+" "
+			document.formu.resul.value = r;
+		    }
+
+		else if (parseInt (d) > parseInt (a) & parseInt (d) > parseInt (b) & parseInt (d) > (c) & parseInt(a) > parseInt(b) & parseInt(a) > parseInt(c) & parseInt(c) > parseInt(b)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+b+" "+c+" "+a+" "+d+" Decrescente "+d+" "+a+" "+c+" "+b+" "
+			document.formu.resul.value = r;
+		    }  
+
+		else if (parseInt (d) > parseInt (a) & parseInt (d) > parseInt (b) & parseInt (d) > (c) & parseInt(b) > parseInt(a) & parseInt(b) > parseInt(c) & parseInt(a) > parseInt(c)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+c+" "+a+" "+b+" "+d+" Decrescente "+d+" "+b+" "+a+" "+c+" "
+			document.formu.resul.value = r;
+		    }
+
+		else if (parseInt (d) > parseInt (a) & parseInt (d) > parseInt (b) & parseInt (d) > (c) & parseInt(b) > parseInt(a) & parseInt(b) > parseInt(c) & parseInt(c) > parseInt(a)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+a+" "+c+" "+b+" "+d+" Decrescente "+d+" "+b+" "+c+" "+a+" "
+			document.formu.resul.value = r;
+		    }  
+
+		else if (parseInt (d) > parseInt (a) & parseInt (d) > parseInt (b) & parseInt (d) > (c) & parseInt(c) > parseInt(a) & parseInt(c) > parseInt(b) & parseInt(a) > parseInt(b)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+b+" "+a+" "+c+" "+d+" Decrescente "+d+" "+c+" "+a+" "+b+" "
+			document.formu.resul.value = r;
+		    }     
+
+		else if (parseInt (d) > parseInt (a) & parseInt (d) > parseInt (b) & parseInt (d) > (c) & parseInt(c) > parseInt(a) & parseInt(c) > parseInt(b) & parseInt(b) > parseInt(a)) {
+			r = "Ordem: "+a+" "+b+" "+c+" "+d+" Crescente: "+a+" "+b+" "+c+" "+d+" Decrescente "+d+" "+c+" "+b+" "+a+" "
+			document.formu.resul.value = r;
+		    }                                                                       
+	}
+	</script>
+	<body>
+		<p align="center"><font size="4">Valores<br/>
+		&nbsp;</font>
+		<hr>
+		<p align="center">&nbsp;</p>
+		<form name="formu">
+			Digite um número:	<input type = "text" name = "variA" /><br/>
+			Digite um número:	<input type = "text" name = "variB" /><br/>
+			Digite um número:	<input type = "text" name = "variC" /><br/>
+			Digite um número:	<input type = "text" name = "variD" /><br/>
+	    	Resultado:          <br/><textarea cols="20" rows="10"  name = "resul" size="40"></textarea><br/>
+	    	<input type="button" value="Fazer" onclick="resultado()" />
+	    	<input type="reset"  value="Limpar" />	
+	    	<input type="button" name="Fechar"  value="Fechar" onclick="window.close()" /><br/>
+	    </form>
+	</body>
+</html>
